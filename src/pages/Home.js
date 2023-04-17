@@ -1,10 +1,22 @@
 import React from "react";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
-import {FaLaravel, FaNodeJs} from "react-icons/fa";
-import {SiPhp, SiJavascript, SiHtml5, SiCss3, SiBootstrap, SiJquery, SiLumen, SiPrestashop, SiPython, SiGoland} from "react-icons/si";
-import {DiYii} from 'react-icons/di';
-import {RiArrowDownSLine} from'react-icons/ri';
+import { FaLaravel, FaNodeJs, FaReact } from "react-icons/fa";
+import { 
+  SiPhp,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiBootstrap,
+  SiJquery,
+  SiLumen,
+  SiPrestashop,
+  SiPython,
+  SiGoland,
+  SiNestjs
+} from "react-icons/si";
+import { DiYii } from 'react-icons/di';
+import { RiArrowDownSLine } from'react-icons/ri';
 import "../styles/Home.css";
 
 function Home() {
@@ -37,6 +49,7 @@ function Home() {
               < SiCss3 className="item-skill" color="#264de4"/> 
               < SiBootstrap className="item-skill" color="#563d7c"/> 
               < SiJquery className="item-skill" color="#0769ad"/> 
+              < FaReact className="item-skill" color="#61DBFB"/>
             </span>
           </li>
           <li className="item">
@@ -47,6 +60,7 @@ function Home() {
               < DiYii className="item-skill" color="#3B6FBA"/> 
               < SiPrestashop className="item-skill" color="#68737F"/> 
               < FaNodeJs className="item-skill" color="#68a063"/>
+              < SiNestjs className="item-skill" color="#E0234E"/>
             </span>
           </li>
           <li className="item">
