@@ -17,6 +17,7 @@ import {
 } from "react-icons/si";
 import { DiYii } from 'react-icons/di';
 import { RiArrowDownSLine } from'react-icons/ri';
+import Tooltip from '@mui/material/Tooltip';
 import "../styles/Home.css";
 
 function Home() {
@@ -45,31 +46,91 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span className="frontend-items">
-              < SiHtml5 className="item-skill" color="#e34c26"/> 
-              < SiCss3 className="item-skill" color="#264de4"/> 
-              < SiBootstrap className="item-skill" color="#563d7c"/> 
-              < SiJquery className="item-skill" color="#0769ad"/> 
-              < FaReact className="item-skill" color="#61DBFB"/>
+              <Tooltip title="HTML" placement="top-start">
+                <span>
+                  <SiHtml5 className="item-skill" color="#e34c26"/>
+                </span> 
+              </Tooltip>
+              <Tooltip title="CSS" placement="top-start">
+                <span>
+                  <SiCss3 className="item-skill" color="#264de4"/> 
+                </span>
+              </Tooltip>
+              <Tooltip title="BOOTSTRAP" placement="top-start">
+                <span>
+                  <SiBootstrap className="item-skill" color="#563d7c"/> 
+                </span>
+              </Tooltip>
+              <Tooltip title="JQUERY" placement="top-start">
+                <span>
+                  <SiJquery className="item-skill" color="#0769ad"/> 
+                </span>
+              </Tooltip>
+              <Tooltip title="REACT" placement="top-start">
+                <span>
+                  <FaReact className="item-skill" color="#61DBFB"/>
+                </span>
+              </Tooltip>
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span className="backend-items">
-              < FaLaravel className="item-skill" color="#F05340"/> 
-              < SiLumen className="item-skill" color="#F05340"/> 
-              < DiYii className="item-skill" color="#3B6FBA"/> 
-              < SiPrestashop className="item-skill" color="#68737F"/> 
-              < FaNodeJs className="item-skill" color="#68a063"/>
-              < SiNestjs className="item-skill" color="#E0234E"/>
+              <Tooltip title="LARAVEL" placement="top-start">
+                <span>
+                  <FaLaravel className="item-skill" color="#F05340"/>
+                </span>
+              </Tooltip>
+              <Tooltip title="LUMEN" placement="top-start">
+                <span>
+                  <SiLumen className="item-skill" color="#F05340"/>
+                </span>
+              </Tooltip>
+              <Tooltip title="YII2" placement="top-start">
+                <span> 
+                  <DiYii className="item-skill" color="#3B6FBA"/>
+                </span>
+              </Tooltip>
+              <Tooltip title="PRESTASHOP" placement="top-start">
+                <span>
+                  <SiPrestashop className="item-skill" color="#68737F"/>
+                </span>
+              </Tooltip>
+              <Tooltip title="NODEJS" placement="top-start">
+                <span>
+                  <FaNodeJs className="item-skill" color="#68a063"/>
+                </span>
+              </Tooltip>
+              <Tooltip title="NESTJS" placement="top-start">
+                <span>
+                  <SiNestjs className="item-skill" color="#E0234E"/>
+                </span>
+              </Tooltip>
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span className="lenguages-imtes">
-                < SiPhp className="item-skill" color="#787CB5"/> 
-                < SiJavascript className="item-skill" color="#F0DB4F"/> 
-                < SiPython className="item-skill" color="#306998"/> 
-                < SiGoland className="item-skill" color="#4DD0E1"/>
+            <span className="lenguages-items">
+              <Tooltip title="PHP" placement="top-start">
+                <span>
+                  <SiPhp className="item-skill" color="#787CB5"/> 
+                </span>
+              </Tooltip>
+              <Tooltip title="JAVASCRIPT" placement="top-start">
+                <span>              
+                  <SiJavascript className="item-skill" color="#F0DB4F"/>
+                </span>
+              </Tooltip>
+              <Tooltip title="PYTHON" placement="top-start">
+                <span>
+                  <SiPython className="item-skill" color="#306998"/> 
+                </span>
+              </Tooltip>
+              <Tooltip title="GOLANG" placement="top-start">
+                <span>
+                  <SiGoland className="item-skill" color="#4DD0E1"/>
+                </span>
+              </Tooltip>
             </span>
           </li>
         </ol>

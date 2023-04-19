@@ -33,14 +33,25 @@ export const experienceItemsData = [
     description: "Create Rest API with laravel, elasticsearch and documentation with swagger. Create web sites and web pages with laravel, bootstrap, jquery, javascript and ajax. Project optimization. Code maintenance. Visualization with docker. Code enhancements in project with yii2 framework."
   },
   {
-    date: "FEB. 2022 - present",
+    date: "FEB. 2022 - DEC. 2022",
     iconStyle: {
       background: "#29344f",
       color: "#fff"
     },
     icon: "WorkIcon",
-    title: "Full Stack Developer - ITPatagonia",
+    title: "Full Stack PHP Developer - ITPatagonia",
     subTitle: "Buenos Aires, AR",
     description: "creation and maintenance of modules in PrestaShop with php, maintenance and creation of new API functionality in nodejs."
+  },
+  {
+    date: "JUN. 2023 - Present",
+    iconStyle: {
+      background: "#29344f",
+      color: "#fff"
+    },
+    icon: "WorkIcon",
+    title: "Full Stack Javascript Developer - ITPatagonia",
+    subTitle: "Buenos Aires, AR",
+    description: "Development of real estate system with NestJS and ReactJS. Search, map location, user permissions system, registration and editing are developed. All the code has tests developed with Jest and documented with swagger, besides being dockerized."
   }
 ];

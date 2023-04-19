@@ -72,12 +72,19 @@ html {
     margin-top: 0px;
   }
   
-  .list span {
+  .list .frontend-items, .list .backend-items, .list .lenguages-items {
     font-size: 3.3em;
   }
 
-  .list span .item-skill{
+  .list .frontend-items .item-skill, 
+  .list .backend-items .item-skill, 
+  .list .lenguages-items .item-skill {
     margin-right: .5em;
+  }
+
+  .div-tooltip {
+    margin: 0px;
+    padding: 0px;
   }
   
   @media only screen and (max-width: 600px) {
